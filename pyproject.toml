@@ -7,7 +7,7 @@ name = "evmutation2"
 dynamic = ["version"]
 description = ''
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.12"
 license = "MIT"
 keywords = []
 authors = [
@@ -16,20 +16,20 @@ authors = [
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python",
-  "Programming Language :: Python :: 3.8",
-  "Programming Language :: Python :: 3.9",
-  "Programming Language :: Python :: 3.10",
-  "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: Implementation :: CPython",
-  "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+    "torch", "numpy", "einx", "einops", "lightning", "click",
+    "biopython>=1.84", "msgpack", "pandas", "requests", "loguru",
+    "jsonargparse[signatures]", "beartype", "environs", "jaxtyping",
+    "torchdata", "pyarrow",
+]
 
 [project.urls]
-Documentation = "https://github.com/Thomas Hopf/evmutation2#readme"
-Issues = "https://github.com/Thomas Hopf/evmutation2/issues"
-Source = "https://github.com/Thomas Hopf/evmutation2"
+Documentation = "https://github.com/thomashopf/evmutation2#readme"
+Issues = "https://github.com/thomashopf/evmutation2/issues"
+Source = "https://github.com/thomashopf/evmutation2"
 
 [tool.hatch.version]
 path = "src/evmutation2/__about__.py"
