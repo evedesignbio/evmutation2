@@ -22,6 +22,8 @@ pip install evmutation2
 
 ## External Code
 
+### alphafold3-pytorch
+
 We gratefully acknowledge lucidrain's AlphaFold3 reimplementation (https://github.com/lucidrains/alphafold3-pytorch)
 which we use in modified form for the encoder part of our model:
 
@@ -47,7 +49,9 @@ which we use in modified form for the encoder part of our model:
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
 
-We also gratefully acknowledge code from OpenFold included parts of this codebase:
+### OpenFold
+
+We also gratefully acknowledge code from OpenFold included in parts of this codebase where noted:
 
 > Copyright 2021 AlQuraishi Laboratory
 > Copyright 2021 DeepMind Technologies Limited
