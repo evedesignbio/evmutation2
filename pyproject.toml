@@ -27,9 +27,9 @@ dependencies = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/thomashopf/evmutation2#readme"
-Issues = "https://github.com/thomashopf/evmutation2/issues"
-Source = "https://github.com/thomashopf/evmutation2"
+Documentation = "https://github.com/evedesignbio/evmutation2#readme"
+Issues = "https://github.com/evedesignbio/evmutation2/issues"
+Source = "https://github.com/evedesignbio/evmutation2"
 
 [tool.hatch.version]
 path = "src/evmutation2/__about__.py"
